@@ -1,11 +1,12 @@
 ---
 # front matter tells Jekyll to process Liquid
+title: Home
 ---
 <!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>New NFES Home</title>
+    <title>{{ page.title }}</title>
   </head>
   <body>
     <h1>{{ "Hello NFES World!" | downcase }}</h1>
